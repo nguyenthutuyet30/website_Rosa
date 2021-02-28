@@ -1,0 +1,362 @@
+*{
+	margin:0;
+	padding: 0;
+}
+body{
+	background-color: white;
+	margin:14px;
+}
+/*------Css phan menu--------*/
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+	color: white;
+}
+.menu{
+	background-image: url("../images/HinhNen/Hinh1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 947px;
+}
+.menu .navbar-default {
+	background: transparent;
+	border-color: transparent;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background: transparent;
+	border-bottom: 2px solid white;
+	color: white;
+	font-weight: 600;
+}
+.navbar-default .navbar-brand {
+	color: white;
+	font-size: 25px;
+	border-bottom: 2px solid white;
+	margin-top: 8px;
+	font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a {
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+	color: #bd975d;
+	transition: all 0.4s;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	background: transparent;
+	color: white;
+}
+.dropdown-menu {
+	background: none;
+}
+.navbar-right .dropdown-menu {
+	right: 0;
+	left: 0;
+}
+.dropdown-menu>li>a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: 400;
+	line-height: 1.42857143;
+	color: white;
+	white-space: nowrap;
+	line-height: 3;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	color: #bd975d;
+	text-decoration: none;
+	background-color: transparent;
+}
+.dropdown:hover .dropdown-menu{
+	display: block;
+	transition: all 0.4s;
+}
+/*-----------Css phan gioithieu------------*/
+.gioithieu .tieude-1 .chu-d {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 122px;
+}
+.gioithieu .timhieuthem {
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid #c59d5f;
+	width: 15%;
+	font-weight: 700;
+	font-size: 16px;
+	display: inline-block;
+	color: #c59d5f;
+	padding-top: 37px;
+}
+
+.gioithieu p {
+	color: #6f6f6f;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.gioithieu .dausao {
+	padding: 34px 0;
+	font-size: 16px;
+}
+
+.gioithieu .tieude-2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	color: #252525;
+	margin-top: -71px;
+}
+
+.gioithieu {
+	text-align: center;
+	padding-top: 80px;
+}
+
+.hinhanh_rosa-2 img {
+	width: 100%;
+	height: auto;
+}
+
+.hinhanh_rosa-1 img {
+	width: 100%;
+	height: auto;
+}
+.gioithieu .tieude-1 {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 98px;
+	color: #c59d5f;
+}
+/*-----Css phan hinhanh monan---------*/
+.hinhmonan{
+	background-image: url("../images/HinhNoiDung/three-col-1.jpg");
+	/*width: 1325px;
+	height: 261px;*/
+	background-size: cover;
+	background-attachment: fixed;
+	margin-top: 102px;
+}
+.hinhmonan .tenmonan .chu-1 {
+	color: #c59d5f;
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 98px;
+}
+.hinhmonan .tenmonan .chu-1 .chu-t {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #c59d5f;
+	font-size: 122px;
+}
+.hinhmonan .tenmonan .chu-2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	color: white;
+	font-weight: 900;
+	letter-spacing: 10px;
+}
+
+/*------Css phan danhsachmonan------*/
+.danhsachmonan {
+	padding-top: 79px;
+}
+.danhsachmonan .monan-1 img{
+	width: 270px;
+	height: 196px;
+	margin-bottom: 25px;
+}
+.danhsachmonan .monan-2 img{
+	width: 270px;
+	height: 196px;
+}
+.danhsachmonan .monan-3 img{
+	width: 270px;
+	height: 196px;
+}
+.danhsachmonan .monan-4 img{
+	width: 270px;
+	height: 196px;
+}
+.danhsachmonan p {
+	color: #6f6f6f;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.danhsachmonan .dausao {
+	padding: 34px 0;
+	font-size: 16px;
+}
+
+.danhsachmonan .tieude-2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	color: #252525;
+	margin-top: -71px;
+}
+.danhsachmonan .tieude-1 {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 98px;
+	color: #c59d5f;
+}
+.danhsachmonan .timhieuthem-2 {
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid #c59d5f;
+	width: 31%;
+	font-weight: 700;
+	font-size: 16px;
+	display: inline-block;
+	color: #c59d5f;
+	padding-top: 37px;
+}
+.danhsachmonan .tieude-1 .chu-d {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 122px;
+}
+/*-----Css phan hinhbanhmi------*/
+.hinhbanhmi{
+	background-image: url("../images/HinhBanh/banh.jpg");
+	/*width: 1325px;
+	height: 277px;*/
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	margin-top: 79px;
+	
+}
+.hinhbanhmi .tenbanh .chu-1 {
+	color: #c59d5f;
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 98px;
+}
+.hinhbanhmi .tenbanh .chu-1 .chu-t {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #c59d5f;
+	font-size: 122px;
+}
+.hinhbanhmi .tenbanh .chu-2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 48px;
+	color: white;
+	font-weight: 900;
+	letter-spacing: 10px;
+}
+
+/*-------------Css phan loicamket-------------*/
+.loicamket .tieude-1 .chu-c {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	color: #c59d5f;
+	font-size: 122px;
+}
+.loicamket{
+	padding-top: 80px;
+}
+.hinhcamket-2 img {
+	width: 270px;
+	height: 450px;
+}
+
+.hinhcamket-1 img {
+	width: 270px;
+	height: 450px;
+}
+
+.loicamket .timhieuthem-3 {
+	font-family: 'Open Sans', sans-serif;
+	border-bottom: 2px solid #c59d5f;
+	width: 33%;
+	font-weight: 700;
+	font-size: 16px;
+	display: inline-block;
+	color: #c59d5f;
+	padding-top: 37px;
+}
+
+.loicamket p {
+	color: #6f6f6f;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.loicamket .dausao {
+	padding: 34px 0;
+	font-size: 16px;
+}
+
+.loicamket .tieude-2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 900;
+	letter-spacing: 10px;
+	color: #252525;
+	margin-top: -71px;
+}
+.loicamket .tieude-1 {
+	font-family: 'Herr Von Muellerhoff', cursive;
+	font-size: 98px;
+	color: #c59d5f;
+}
+/*----------Css phan vechungtoi -----------------------*/
+
+.vechungtoi {
+	background-color: #121212;
+	color: white;
+	font-family: 'Cabin', sans-serif;
+	margin-top: 79px;
+
+}
+.vechungtoi .tieude {
+	font-size: 22px;
+	padding-bottom: 36px;
+	padding-top: 72px;
+}
+.vechungtoi .dausao {
+	color: #c59d5f;
+	font-size: 18px;
+	padding-bottom: 36px;
+}
+.vechungtoi p {
+	font-size: 18px;
+}
+.vechungtoi h3 {
+	padding-bottom: 34px;
+
+}
+.vechungtoi i.fa {
+	font-size: 30px;
+	padding-left: 15px;
+}
+.input-container {
+	display: inline-flex;
+}
+
+.icon {
+	padding: 10px;
+	background: white;
+	color: black;
+	min-width: 45px;
+	height: 41px;
+	text-align: center;
+	border: none;
+}
+.guithu {
+    padding-bottom: 116px;
+}
+/*-------------Css phan hotline----------*/
+.hotline {
+    background: #4e4e4e;
+    color: #a1a1a1;
+    font-family: 'Cabin', sans-serif;
+    padding-top: 66px;
+
+}
+.diachi {
+    font-size: 16px;
+
+}
+.diachi span {
+    color: #c59d5f;
+}
+.tacgia {
+    font-size: 18px;
+    padding-top: 33px;
+    padding-bottom: 66px;
+}
+/**/
+
